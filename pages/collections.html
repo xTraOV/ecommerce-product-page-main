@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png">
+  <link rel="stylesheet" href="/style/test.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <div class="navigation hidden">
+    <div class="navWrapper">
+      <div class="navClose"><img src="/images/icon-close.svg" alt=""></div>
+      <ul class="navList">
+        <li><a href="/pages/collections.html">Collections</a></li>
+        <li><a href="/pages/collections.html">Men</a></li>
+        <li><a href="/pages/collections.html">Women</a></li>
+        <li><a href="/pages/collections.html">About</a></li>
+        <li><a href="/pages/collections.html">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="cart hidden">
+    <div class="cartWrapper">
+      <div class="cartHeader"><p>Cart</p></div>
+      <div class="cartContainer">
+        <div class="itemPriceQuantity"></div>
+        <div class="checkout"><button class="checkoutButton">Chechkout</button></div>
+      </div>
+    </div>
+  </div>
+  <div class="content">
+    <div class="header">
+      <button id="mobileNavButton"><img src="/images/icon-menu.svg" alt=""></button>
+      <a class="home" href="/index.html"><p>sneakers</p></a>
+      <div class="headerSpacer"></div>
+      <div class="cartButton"><img src="/images/icon-cart.svg" alt="shopping cart" class="cartImage"></div>
+      <div class="memberIcon"><img src="/images/image-avatar.png" alt="your avatar" class="memberImage"></div>
+    </div>
+
+    <script src="/script/cart.js"></script>
+    <script src="/script/mobileNavigation.js"></script>
+</body>
+</html>
